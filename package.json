@@ -1,0 +1,28 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/abolfazlrsi2004/Pokemon#readme",
+  "bugs": {
+    "url": "https://github.com/abolfazlrsi2004/Pokemon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abolfazlrsi2004/Pokemon.git"
+  },
+  "license": "MIT",
+  "author": "Abohfazl Raeisi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "tw": "npx @tailwindcss/cli -i ./main.css -o ./style.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.8.0"
+  }
+}
